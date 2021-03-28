@@ -1,0 +1,254 @@
+@media screen and (min-width:1440px) {
+    body {
+        width: 80%;
+    }
+
+    #text-packages>.up {
+        font-size: 45px;
+    }
+    input {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    body {
+        width: 80%;
+    }
+
+    .logo img {
+        width: 200px;
+        margin-top: 30px;
+    }
+
+    .menu div img {
+        width: 50px;
+    }
+
+    #logo-packages img {
+        width: 150px;
+    }
+
+    #text-packages>.up {
+        font-size: 42px;
+
+    }
+
+    #text-packages>.down {
+        font-size: 30px;
+    }
+    input {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:1024px) {
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .menu div img {
+        width: 50px;
+    }
+
+    #logo-packages {
+        display:flex;
+        justify-content: center;
+    }
+
+    #logo-packages img {
+        width: 200px;
+    }
+
+    #text-packages>.up {
+        font-size: 45px;
+
+    }
+
+    #text-packages>.down {
+        font-size: 35px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+    section:first-of-type > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-eclosion > h1 {
+        text-align: center;
+        padding-right: 50px;
+        font-size: 50px;
+    }
+
+    .div-eclosion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #eclosion {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #eclosion > img {
+        margin-top: 0px;
+    }
+
+    #text-eclosion {
+        padding:0%;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+}
+
+@media screen and (max-width:767px) {
+    body {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .logo img {
+        width: 200px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .menu div img {
+        width: 50px;
+    }
+
+    #logo-packages {
+        display:flex;
+        justify-content: center;
+    }
+
+    #logo-packages img {
+        width: 200px;
+        margin-bottom: 0px;
+    }
+
+    #text-packages {
+        padding-right: 25px;
+    }
+
+    #text-packages>.up {
+        font-size: 45px;
+
+    }
+
+    #text-packages>.down {
+        font-size: 35px;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    section:first-of-type > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .title-eclosion > h1 {
+        text-align: center;
+        padding-right: 50px;
+        font-size: 30px;
+    }
+
+    .div-eclosion {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #eclosion {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #eclosion > img {
+        margin-top: 0px;
+    }
+
+    #text-eclosion {
+        padding:0%;
+    }
+
+
+    label {
+        cursor: pointer;
+        color: white;
+        width: 50px;
+    }
+
+    input {
+        display: none;
+    }
+    .menu {
+        text-align: center;
+        width: 10%;
+        display: none;
+        padding-right: 30px;
+        padding-left: 0px;
+    }
+
+    .menu div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-right: 10px;
+    }
+    #toggle:checked +.menu {
+        display: block
+    }
+
+    .dispo-logo {
+        
+    }
+
+    .dispo-logo div img {
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    
+}
